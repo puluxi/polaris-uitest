@@ -1,0 +1,45 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 == 5\n +  where 4 = func(3)",
+      "children" : [ {
+        "name" : "test_answer",
+        "uid" : "27a118aa1715375",
+        "parentUid" : "79db0fec69a88747a886714c347fc19d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603198969407,
+          "stop" : 1603198969407,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79db0fec69a88747a886714c347fc19d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=86.0.4240.75)",
+      "children" : [ {
+        "name" : "test_345",
+        "uid" : "fb200a0efa6e2de8",
+        "parentUid" : "1049784477ca657cec885a652866930b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603198989639,
+          "stop" : 1603199004045,
+          "duration" : 14406
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1049784477ca657cec885a652866930b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

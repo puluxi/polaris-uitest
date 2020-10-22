@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_123",
+    "children" : [ {
+      "name" : "test_answer",
+      "uid" : "9a0b2f8d1e7060a3",
+      "parentUid" : "b386f878ada6dd74227ad4f468e46c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603197680942,
+        "stop" : 1603197680942,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_ui",
+      "uid" : "e4d2993ad9ad5ec9",
+      "parentUid" : "b386f878ada6dd74227ad4f468e46c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603197680945,
+        "stop" : 1603197685559,
+        "duration" : 4614
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b386f878ada6dd74227ad4f468e46c21"
+  }, {
+    "name" : "test_main",
+    "children" : [ {
+      "name" : "test_answer",
+      "uid" : "27a118aa1715375",
+      "parentUid" : "9ddc06458b7584bde71958fea9f8909c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1603198969407,
+        "stop" : 1603198969407,
+        "duration" : 0
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9ddc06458b7584bde71958fea9f8909c"
+  }, {
+    "name" : "test_345",
+    "children" : [ {
+      "name" : "test_345",
+      "uid" : "fb200a0efa6e2de8",
+      "parentUid" : "4ffbb392416177da89ca9371e343257c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1603198989639,
+        "stop" : 1603199004045,
+        "duration" : 14406
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test345",
+      "uid" : "99ae2d71749059ea",
+      "parentUid" : "4ffbb392416177da89ca9371e343257c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603199004219,
+        "stop" : 1603199004219,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4ffbb392416177da89ca9371e343257c"
+  } ]
+}

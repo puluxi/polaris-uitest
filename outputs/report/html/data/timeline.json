@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "GJSJ2669-L",
+    "children" : [ {
+      "name" : "20880-MainThread",
+      "children" : [ {
+        "name" : "test_345",
+        "uid" : "fb200a0efa6e2de8",
+        "parentUid" : "ac548b05522ab817e75d3e7ca72d9985",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603198989639,
+          "stop" : 1603199004045,
+          "duration" : 14406
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test345",
+        "uid" : "99ae2d71749059ea",
+        "parentUid" : "ac548b05522ab817e75d3e7ca72d9985",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603199004219,
+          "stop" : 1603199004219,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac548b05522ab817e75d3e7ca72d9985"
+    }, {
+      "name" : "18668-MainThread",
+      "children" : [ {
+        "name" : "test_answer",
+        "uid" : "9a0b2f8d1e7060a3",
+        "parentUid" : "7ae358ea96c5c5cad58b2aae448f70d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603197680942,
+          "stop" : 1603197680942,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ui",
+        "uid" : "e4d2993ad9ad5ec9",
+        "parentUid" : "7ae358ea96c5c5cad58b2aae448f70d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603197680945,
+          "stop" : 1603197685559,
+          "duration" : 4614
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ae358ea96c5c5cad58b2aae448f70d4"
+    }, {
+      "name" : "14328-MainThread",
+      "children" : [ {
+        "name" : "test_answer",
+        "uid" : "27a118aa1715375",
+        "parentUid" : "0e5e05ccccfca24b44c59c1f19e9f0fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603198969407,
+          "stop" : 1603198969407,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e5e05ccccfca24b44c59c1f19e9f0fb"
+    } ],
+    "uid" : "0eb3f01c2ada66d9945a518b350b65a3"
+  } ]
+}
